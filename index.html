@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Flat Earth Survey</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+       <header>
+       <h1 id="title">The Flat Earth<small>&trade;</small>	 Survey</h1>
+         <p id="description">Are you still going around in circles?</p> 
+       </header>
+       
+       <form id="survey-form">
+         <div>
+           <label for="name" id="name-label">Name</label>
+         <input id="name" type="text" required placeholder="Enter your name">
+           </div>
+         <div>
+           <label for="email" id="email-label">Email</label>
+           <input id="email" type="email" required placeholder="Enter your email">
+           </div>
+         <div>
+           <label for="number" id="number-label">Age</label>
+           <input id="number" type="number" min="1" max="256" required placeholder="Enter your age">
+           </div>
+           <div id="race-form">
+             <label for="dropdown">Gender</label>
+         <select id="dropdown" >
+         <option value="female">Female</option>
+         <option value="male">Male</option>
+         <option value="other">Other</option>
+         <option value="why">Why?</option>
+       </select>
+             </div>
+           <br>
+           <div>
+               <input type="radio" name="gender" value="male"> Male<br>
+         <input type="radio" name="gender" value="female"> Female<br>
+         <input type="radio" name="gender" value="other"> Other
+           </div>
+           <br>
+           <div>
+             <label>HI</label><br>
+             <input type="checkbox" name="skills" value="vegan">Vegan<br>
+             <input type="checkbox" name="skills" value="ecologist">Ecologist
+           </div>
+           <br>
+           <div>
+             <label for="comments">Tell me more</label>
+             <br>
+             <textarea id="comments" placeholder="Pls"></textarea>
+           </div>
+           <input id="submit" type="submit">
+             </form>
+</body>
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</html>
+

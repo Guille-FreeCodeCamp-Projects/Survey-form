@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+    background-color: #81dac8;
+  }
+  
+  #title {
+    font-size: 3em;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  
+  #description {
+    font-size: 1.5em;
+  }
+  
+  #survey-form {
+    line-height:2em;
+    display:table;
+    margin-left: auto;
+    margin-right: auto;
+    }
+  
+  
+  #race-form {
+    line-height:1.5em;
+  }
